@@ -8,7 +8,7 @@
           <NuxtLink href="/">
             <a href="/">
               <span class="sr-only">Workflow</span>
-              <nuxt-img src="/logo.svg" width="175" height="57" alt="Logo" />
+              <img src="/logo.svg" width="175" height="57" alt="Logo" />
             </a>
           </NuxtLink>
         </div>
