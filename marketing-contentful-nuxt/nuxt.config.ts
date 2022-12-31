@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   ssr: true,
   css: ["~/assets/css/main.css"],
+  // TODO: Do this dynamically
   generate: {
     routes: ["/", "/pricing", "/employee-management", "/compensation"],
   },
