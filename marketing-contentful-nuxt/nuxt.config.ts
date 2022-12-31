@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   generate: {
     routes: ["/", "/pricing", "/employee-management", "/compensation"],
   },
+  modules: ["@nuxt/image-edge"],
   postcss: {
     plugins: {
       tailwindcss: {},
