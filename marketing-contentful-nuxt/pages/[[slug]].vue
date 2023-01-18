@@ -24,18 +24,14 @@ const { $contentfulClient } = useNuxtApp();
 const route = useRoute();
 const { slug } = route.params;
 
-const { data } = await useAsyncData(
-  slug as string,
-  async () => {
-    return await $contentfulClient.getEntries({
-      content_type: "page",
-      "fields.slug[in]": (slug as string) === "" ? "/" : (slug as string),
-      limit: 1,
-      include: 10,
-    });
-  },
-  { watch: [route] }
-);
+const { data } = await useAsyncData(slug as string, async () => {
+  return await $contentfulClient.getEntries({
+    content_type: "page",
+    "fields.slug[in]": (slug as string) === "" ? "/" : (slug as string),
+    limit: 1,
+    include: 10,
+  });
+});
 
 if (!data.value) {
   throw createError({
