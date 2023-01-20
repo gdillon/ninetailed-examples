@@ -21,8 +21,8 @@
     "tailwindcss": "^3.2.4"
   },
   "dependencies": {
-    "@ninetailed/experience.js": "^2.2.11",
-    "@ninetailed/experience.js-utils-contentful": "^2.2.11",
+    "@ninetailed/experience.js": "^3.0.2",
+    "@ninetailed/experience.js-utils-contentful": "^3.0.2",
     "contentful": "^9.2.14",
     "lodash": "^4.17.21"
   }

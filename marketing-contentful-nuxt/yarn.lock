@@ -524,65 +524,56 @@
   dependencies:
     is-promise "^4.0.0"
 
-"@ninetailed/experience.js-shared@2.2.11":
-  version "2.2.11"
-  resolved "https://registry.yarnpkg.com/@ninetailed/experience.js-shared/-/experience.js-shared-2.2.11.tgz#dbdcc1fff88f5f22983da1c0267d75478f2bc721"
-  integrity sha512-gbxyRUAHAjAZrcFYNgOnDBVpPz+YMBsBBlcGIgRKRsfYWRR5V1se/xTDtBobDyUtrvlXPcELeDN94HgQzpPzuQ==
+"@ninetailed/experience.js-plugin-analytics@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@ninetailed/experience.js-plugin-analytics/-/experience.js-plugin-analytics-3.0.2.tgz#913ed5f696359b3e79fd4f00fe90032a7d5814d4"
+  integrity sha512-1oZii5nLJgxPNzQd/XGiHnduT9i9HPd00F/tDmRKl/9FpsfJM/9V8PeT52dqQqtwDyXcf1bm4Ov0vWEsXv4ZHQ==
   dependencies:
-    i18n-iso-countries "^7.3.0"
-    locale-enum "^1.1.1"
-    ts-toolbelt "^9.6.0"
-    uuid "^8.3.2"
+    "@ninetailed/experience.js-shared" "3.0.2"
+    analytics "0.8.1"
+    zod "3.20.2"
 
-"@ninetailed/experience.js-utils-contentful@^2.2.11":
-  version "2.2.11"
-  resolved "https://registry.yarnpkg.com/@ninetailed/experience.js-utils-contentful/-/experience.js-utils-contentful-2.2.11.tgz#de99bed3f4cdb5b6c195b75764e71d772d1c37a9"
-  integrity sha512-rmvkcW1t84A9jzYJlZFhBdvMooeKku2pI+EYZTVquA7Q2/hJI33/QJrTZICJEQdT2oRfEWnDfi+M8qW8B82quA==
+"@ninetailed/experience.js-shared@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@ninetailed/experience.js-shared/-/experience.js-shared-3.0.2.tgz#6b9333ad326aca2989767d928e1e65538da7d916"
+  integrity sha512-8nrK+p/SwKPM5BbX5wX77D+UcScHiXWHddzf60Ut7q3ffFyykzMZkr092HA29BQLruHaB2wKj/Ynjl+UWn/+/Q==
   dependencies:
-    "@ninetailed/experience.js" "2.2.11"
-    "@ninetailed/experience.js-shared" "2.2.11"
-    "@ninetailed/experience.js-utils" "2.2.11"
-    analytics "^0.8.0"
-    diary "^0.3.1"
-    i18n-iso-countries "^7.3.0"
-    locale-enum "^1.1.1"
-    lodash "^4.17.21"
-    murmurhash-js "^1.0.0"
-    ts-toolbelt "^9.6.0"
-    uuid "^8.3.2"
-    zod "^3.18.0"
+    async-retry "1.3.3"
+    diary "0.3.1"
+    i18n-iso-countries "7.5.0"
+    locale-enum "1.1.1"
+    ts-toolbelt "9.6.0"
+    zod "3.20.2"
 
-"@ninetailed/experience.js-utils@2.2.11":
-  version "2.2.11"
-  resolved "https://registry.yarnpkg.com/@ninetailed/experience.js-utils/-/experience.js-utils-2.2.11.tgz#153ce3a639540ee5bc65e9573eaa97dd00644e05"
-  integrity sha512-gLHa/N6nxm1SJt8GMNehWqkPHJtHeciapZR1lG3VMMf1UVJHVs/JMbDd8BeL/7hmF0xFKhxqAoKSpnFdQAle2w==
+"@ninetailed/experience.js-utils-contentful@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@ninetailed/experience.js-utils-contentful/-/experience.js-utils-contentful-3.0.2.tgz#79bf1838c38f0456fd7e69ad9b20fd914877f686"
+  integrity sha512-bLZooXInB8y/QJ5BFU8eyL85ljADwlaBonPgzH4PmqtvgfU1azC+U/9JPsqQyts0GnHXlrq1KPTlKmXKMJOHLg==
   dependencies:
-    "@ninetailed/experience.js" "2.2.11"
-    "@ninetailed/experience.js-shared" "2.2.11"
-    analytics "^0.8.0"
-    diary "^0.3.1"
-    i18n-iso-countries "^7.3.0"
-    locale-enum "^1.1.1"
-    lodash "^4.17.21"
-    murmurhash-js "^1.0.0"
-    ts-toolbelt "^9.6.0"
-    uuid "^8.3.2"
-    zod "^3.18.0"
+    "@ninetailed/experience.js" "3.0.2"
+    "@ninetailed/experience.js-shared" "3.0.2"
+    "@ninetailed/experience.js-utils" "3.0.2"
+    zod "3.20.2"
 
-"@ninetailed/experience.js@2.2.11", "@ninetailed/experience.js@^2.2.11":
-  version "2.2.11"
-  resolved "https://registry.yarnpkg.com/@ninetailed/experience.js/-/experience.js-2.2.11.tgz#fe4d2eb760eb128c886490a8f4660799a825a764"
-  integrity sha512-o/IQLGFPl10Ih6QlfnwGuqaRL4Ht5wroklU3xDeH9hExhHqbPXWkgoPd7Dl968RjKKqDm20HXU5+4FDN4FvKfQ==
+"@ninetailed/experience.js-utils@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@ninetailed/experience.js-utils/-/experience.js-utils-3.0.2.tgz#559886a7c07a4bdd85a349099dbf718fc7499957"
+  integrity sha512-HJg3r72a4KB5Z8VWjdmPavbSC91PdHeNrZNK+970twFT8qyTCwq4XTMLS+MZLt4pRZbwFyS8Jk21HQTgmfxL5Q==
   dependencies:
-    "@ninetailed/experience.js-shared" "2.2.11"
-    analytics "^0.8.0"
-    diary "^0.3.1"
-    i18n-iso-countries "^7.3.0"
-    locale-enum "^1.1.1"
-    lodash "^4.17.21"
-    murmurhash-js "^1.0.0"
-    ts-toolbelt "^9.6.0"
-    uuid "^8.3.2"
+    "@ninetailed/experience.js" "3.0.2"
+    "@ninetailed/experience.js-shared" "3.0.2"
+    zod "3.20.2"
+
+"@ninetailed/experience.js@3.0.2", "@ninetailed/experience.js@^3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@ninetailed/experience.js/-/experience.js-3.0.2.tgz#ab9781790f117c79c28fab15e0c48841507b898e"
+  integrity sha512-/Dxl7cKGUxIEfQzWksRyXcSsE5uP0Dc0o5wXyR7fok10IwbeAjTm4ZA4fEi0XgCRKvaozapWNDclRIUhsaN1/g==
+  dependencies:
+    "@ninetailed/experience.js-plugin-analytics" "3.0.2"
+    "@ninetailed/experience.js-shared" "3.0.2"
+    analytics "0.8.1"
+    lodash "4.17.21"
+    murmurhash-js "1.0.0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -1091,7 +1082,7 @@ analytics-utils@^1.0.10:
     "@analytics/type-utils" "^0.6.0"
     dlv "^1.1.3"
 
-analytics@^0.8.0:
+analytics@0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/analytics/-/analytics-0.8.1.tgz#e8ed0d5e729e666c1ab64dc5bdaa5f8231f05a1b"
   integrity sha512-mXOe8zTGDfiYqw9MZsgul8HrOBmHsIwk/0xbrkGZr75yvWqAcyKfZA0WjOalwI9tzIKv8WNfHV5yhnrtQcXJpw==
@@ -1206,6 +1197,13 @@ arrify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
   integrity sha512-3CYzex9M9FGQjCGMGyi6/31c8GJbgb0qGyrx5HWxPd0aCwh4cB2YjMb2Xf9UuoogrMrlO9cTqnB5rI5GHZTcUA==
+
+async-retry@1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/async-retry/-/async-retry-1.3.3.tgz#0e7f36c04d8478e7a58bdbed80cedf977785f280"
+  integrity sha512-wfr/jstw9xNi/0teMHrRW7dsz3Lt5ARhYNZ2ewpadnhaIp5mbALhOAP+EAdsC7t4Z6wqsDVv9+W6gm1Dk9mEyw==
+  dependencies:
+    retry "0.13.1"
 
 async-sema@^3.1.1:
   version "3.1.1"
@@ -1948,7 +1946,7 @@ diacritics@1.3.0:
   resolved "https://registry.yarnpkg.com/diacritics/-/diacritics-1.3.0.tgz#3efa87323ebb863e6696cebb0082d48ff3d6f7a1"
   integrity sha512-wlwEkqcsaxvPJML+rDh/2iS824jbREk6DUMUKkEaSlxdYHeS43cClJtsWglvw2RfeXGm6ohKDqsXteJ5sP5enA==
 
-diary@^0.3.1:
+diary@0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/diary/-/diary-0.3.1.tgz#8fb44e8d66f91d77c45c6aa0a6134f3280c34360"
   integrity sha512-efOiQYa4S0fNbXs00dDq6wGPIlTCs2TCKDglL+bPhFnmV/4aPfv2mHJ6K3BXey5Fy+4mXNob7QtJYQVIxBpxQA==
@@ -2732,7 +2730,7 @@ human-signals@^2.1.0:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
-i18n-iso-countries@^7.3.0:
+i18n-iso-countries@7.5.0:
   version "7.5.0"
   resolved "https://registry.yarnpkg.com/i18n-iso-countries/-/i18n-iso-countries-7.5.0.tgz#74fedd72619526a195cfb2e768fe1d82eed2123f"
   integrity sha512-PtfKJNWLVhhU0KBX/8asmywjAcuyQk07mmmMwxFJcddTNBJJ1yvpY2qxVmyxbtVF+9+6eg9phgpv83XPUKU5CA==
@@ -3075,7 +3073,7 @@ local-pkg@^0.4.2:
   resolved "https://registry.yarnpkg.com/local-pkg/-/local-pkg-0.4.2.tgz#13107310b77e74a0e513147a131a2ba288176c2f"
   integrity sha512-mlERgSPrbxU3BP4qBqAvvwlgW4MTg78iwJdGGnv7kibKjWcJksrG3t6LB5lXI93wXRDvG4NpUgJFmTG4T6rdrg==
 
-locale-enum@^1.1.1:
+locale-enum@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/locale-enum/-/locale-enum-1.1.1.tgz#618b301564f250230799a63dcfdf2dc4270abea3"
   integrity sha512-gkqMmpdD0lPLUtCx32t8bM2ltP3N+yCvD2RskLIAYUeXb+wPkb6iUEWTKSUd6F9TYgjIt67B/48qVaeeSjJVDQ==
@@ -3162,7 +3160,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha512-xfBaXQd9ryd9dlSDvnvI0lvxfLJlYAZzXomUYzLKtUeOQvOP5piqAWuGtrhWeqaXK9hhoM/iyJc5AV+XfsX3HQ==
 
-lodash@^4.17.21:
+lodash@4.17.21, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -3420,7 +3418,7 @@ ms@2.1.3:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
-murmurhash-js@^1.0.0:
+murmurhash-js@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/murmurhash-js/-/murmurhash-js-1.0.0.tgz#b06278e21fc6c37fa5313732b0412bcb6ae15f51"
   integrity sha512-TvmkNhkv8yct0SVBSy+o8wYzXjE4Zz3PCesbfs8HiCXXdcTuocApFv11UWlNFWKYsP2okqrhb7JNlSm9InBhIw==
@@ -4403,6 +4401,11 @@ restore-cursor@^4.0.0:
     onetime "^5.1.0"
     signal-exit "^3.0.2"
 
+retry@0.13.1:
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/retry/-/retry-0.13.1.tgz#185b1587acf67919d63b357349e03537b2484658"
+  integrity sha512-XQBQ3I8W1Cge0Seh+6gjj03LbmRFWuoszgK9ooCpwYIrhhoO80pfq4cUkU5DkknwfOfFteRwlZ56PYOGYyFWdg==
+
 reusify@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
@@ -4944,7 +4947,7 @@ trim-newlines@^3.0.0:
   resolved "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-3.0.1.tgz#260a5d962d8b752425b32f3a7db0dcacd176c144"
   integrity sha512-c1PTsA3tYrIsLGkJkzHF+w9F2EyxfXGo4UyJc4pFL++FMjnq0HJS69T3M7d//gKrFKwy429bouPescbjecU+Zw==
 
-ts-toolbelt@^9.6.0:
+ts-toolbelt@9.6.0:
   version "9.6.0"
   resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-9.6.0.tgz#50a25426cfed500d4a09bd1b3afb6f28879edfd5"
   integrity sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==
@@ -5113,11 +5116,6 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
-
-uuid@^8.3.2:
-  version "8.3.2"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
-  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
@@ -5407,7 +5405,7 @@ zip-stream@^4.1.0:
     compress-commons "^4.1.0"
     readable-stream "^3.6.0"
 
-zod@^3.18.0:
+zod@3.20.2:
   version "3.20.2"
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.20.2.tgz#068606642c8f51b3333981f91c0a8ab37dfc2807"
   integrity sha512-1MzNQdAvO+54H+EaK5YpyEy0T+Ejo/7YLHS93G3RnYWh5gaotGHwGeN/ZO687qEDU2y4CdStQYXVHIgrUl5UVQ==
